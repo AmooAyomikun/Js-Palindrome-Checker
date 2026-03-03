@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <body>
+
+    <div class="container">
+        <header class="card-header">
+            <h1>Palindrome Checker</h1>
+            <p class="subtitle">
+                Enter a word or sentence to check if it reads the same forward and backward.
+            </p>
+        </header>
+
+        <form id="palindrome-form" class="form">
+            
+            <div class="input-group">
+                <label for="text-input">Enter Text</label>
+                <input type="text" id="text-input" placeholder="Enter the text you want to check" autocomplete="off" />
+                <p id="error-msg"></p>
+            </div>
+
+            <button type="submit" id="check-btn" class="btn">Check</button>
+            <button type="submit" id="reset-btn" class="btn">Reset</button>
+        </form>
+
+        <div id="result" class="result hidden">
+            <!--Result will appear here -->
+        </div>
+
+        </section>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+</html>
